@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: burlywood;
+}
+
+.parent-container {
+  height: 750px;
+}
+.container {
+  text-align: center;
+  text-transform: capitalize;
+  height: 650px;
+  background: white;
+  margin: 50px 540px;
+  padding-top: 30px;
+}
+
+span {
+  font-size: xx-large;
+  letter-spacing: 2px;
+}
+.person-detail {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.person-detail div {
+  color: gray;
+}
+
+.person-detail div:first-child {
+  font-weight: bold;
+  color: black;
+}
+
+.person-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 400px;
+  background: burlywood;
+  text-transform: uppercase;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.person-image {
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
