@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  margin-top: 20px;
+  text-transform: capitalize;
+  background: black;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+main {
+  margin-top: 200px;
+  text-align: center;
+}
+
+main h1 {
+  color: white;
+}
+
+.person-info {
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+
+.rights {
+  color: white;
+  margin-top: 10px;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.3rem 2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  border: none;
+  background: lightsteelblue;
+}
+
+.btn {
+  margin-top: 15px;
+}
+.line {
+  margin: 10px;
+  border-top: 2px solid gray;
+}
